@@ -1,3 +1,4 @@
+
 def naive_string_matching(text, pattern):
     n = len(text)
     m = len(pattern)
@@ -14,7 +15,6 @@ def naive_string_matching(text, pattern):
 
     return occurrences
 
-# Example usage:
-text = "abracadabra"
-pattern = "abra"
+text = "magikarpgyarados"
+pattern = "rpgy"
 print("Occurrences found at indices:", naive_string_matching(text, pattern))

@@ -37,7 +37,6 @@ def knuth_morris_pratt(text, pattern):
 
     return occurrences
 
-# Example usage:
-text = "abracadabra"
-pattern = "abra"
+text = "magikarpgyarados"
+pattern = "rpgy"
 print("Occurrences found at indices:", knuth_morris_pratt(text, pattern))

@@ -28,7 +28,6 @@ def finite_automaton(text, pattern):
 
     return occurrences
 
-# Example usage:
-text = "abracadabra"
-pattern = "abra"
+text = "magikarpgyarados"
+pattern = "rpgy"
 print("Occurrences found at indices:", finite_automaton(text, pattern))
